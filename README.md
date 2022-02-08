@@ -59,6 +59,10 @@ git brnach
 
 4.브랜치 이동 
 git switch 이동할브랜치명
+
+
+
+참고 : https://www.tuwlab.com/22214
 ```
 
 
