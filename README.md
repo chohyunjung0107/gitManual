@@ -41,9 +41,18 @@ git push origin HEAD:master
 ## barnch 생성/삭제/현위치/브랜치이동
 ```
 1. 브랜치 생성하기
-git branch 생성할명
+(원결/로컬)git push origin 생성할명
+(로컬)git branch 생성할명
+- local의 branch를 retmoe branch와 연동하는 작업을 수행
+git branch --set-upstream-to origin/생성한브랜치
+
 
 2. 브랜치 삭제하기
+(원격)
+git push origin --delete 삭제할명 
+
+(로컬)
+git branch -d 삭제할명 
 
 3. 브랜치 현위치 
 git brnach 
